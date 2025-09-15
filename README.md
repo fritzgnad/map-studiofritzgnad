@@ -1,4 +1,4 @@
-# 🗺️ WorkAdventure Map Starter Kit
+# 🗺️ Studio Fritz Gnad – WorkAdventure Map
 
 <a href="https://discord.gg/G6Xh9ZM9aR" target="blank"><img src="https://img.shields.io/discord/821338762134290432.svg?style=flat&label=Join%20Community&color=7289DA" alt="Join Community Badge"/></a>
 <a href="https://x.com/workadventure_" target="blank"><img src="https://img.shields.io/twitter/follow/workadventure_.svg?style=social" /></a>
@@ -6,11 +6,11 @@
 
 ![office map thumbnail](./office.png)
 
-🗺️ This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
+🗺️ This repository contains the interactive map of **Studio Fritz Gnad**, built with [WorkAdventure](https://workadventu.re).
 
-📚 To understand how to use this starter kit, follow [our tutorial](https://docs.workadventu.re/map-building/tiled-editor/).
+📚 To modify or extend this map, follow the [WorkAdventure map tutorial](https://docs.workadventu.re/map-building/tiled-editor/).
 
-👨🏻‍🔧 If you have any questions, feel free to ask in the [WorkAdventure office](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village).
+👨🏻‍🔧 For general WorkAdventure help, you can visit the [WorkAdventure office](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village).
 
 ## 🚀 Upload your map
 
