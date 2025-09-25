@@ -534,6 +534,11 @@
                  "name":"jitsiChillZone",
                  "properties":[
                         {
+                         "name":"allowApi",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"focusable",
                          "type":"bool",
                          "value":true
@@ -547,6 +552,11 @@
                          "name":"jitsiTrigger",
                          "type":"string",
                          "value":"onaction"
+                        }, 
+                        {
+                         "name":"policy",
+                         "type":"string",
+                         "value":"camera; microphone; fullscreen; display-capture; autoplay; clipboard-write; picture-in-picture"
                         }, 
                         {
                          "name":"zoom_margin",
