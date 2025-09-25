@@ -544,15 +544,20 @@
                          "value":true
                         }, 
                         {
-                         "name":"openWebsite",
+                         "name":"openTab",
                          "type":"string",
-                         "value":"https://jitsi.studiofritzgnad.de/chillzone"
+                         "value":"https://jitsi.studiofritzgnad.de:8443/chillzone"
                         },
                        
                         {
                          "name":"policy",
                          "type":"string",
-                         "value":"camera; microphone; fullscreen; display-capture; autoplay; clipboard-write; picture-in-picture"
+                         "value":"camera; microphone; display-capture; fullscreen; autoplay;"
+                        }, 
+                        {
+                         "name":"allow",
+                         "type":"string",
+                         "value":"camera; microphone; fullscreen; display-capture; autoplay"
                         }, 
                         {
                          "name":"zoom_margin",
