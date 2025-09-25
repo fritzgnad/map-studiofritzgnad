@@ -262,54 +262,28 @@
          "id":2,
          "name":"floorLayer",
          "objects":[
-               // Add these properties to your jitsiConference object in conference.tmj
-{
- "height":320,
- "id":18,
- "name":"jitsiConference",
- "properties":[
-        {
-         "name":"jitsiRoom",
-         "type":"string",
-         "value":"Conference"
-        }, 
-        {
-         "name":"jitsiTrigger",
-         "type":"string",
-         "value":"onaction"
-        },
-        {
-         "name":"jitsiUrl",
-         "type":"string",
-         "value":"https://meet.jit.si"
-        },
-        {
-         "name":"jitsiConfig",
-         "type":"string",
-         "value":"{\"startWithAudioMuted\": false, \"startWithVideoMuted\": false, \"requireDisplayName\": false}"
-        },
-        {
-         "name":"jitsiInterfaceConfig",
-         "type":"string", 
-         "value": "{\"SHOW_JITSI_WATERMARK\": false, \"SHOW_WATERMARK_FOR_GUESTS\": false}"
-        },
-        {
-         "name":"allowApi",
-         "type":"string",
-         "value":"camera;microphone;display-capture;autoplay;encrypted-media;fullscreen"
-        },
-        {
-         "name":"iframeAllow",
-         "type":"string",
-         "value":"camera *; microphone *; display-capture *; autoplay; encrypted-media; fullscreen"
-        }],
- "rotation":0,
- "type":"area",
- "visible":true,
- "width":219.090909090909,
- "x":32,
- "y":96
-}, 
+                {
+                 "height":320,
+                 "id":18,
+                 "name":"jitsiConference",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Conference"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":219.090909090909,
+                 "x":32,
+                 "y":96
+                }, 
                 {
                  "height":71.612250966399,
                  "id":19,
