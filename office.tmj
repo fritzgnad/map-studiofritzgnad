@@ -531,7 +531,7 @@
                 {
                  "height":128,
                  "id":13,
-                 "name":"jitsiChillZone",
+                 "name":"Jitsi Web",
                  "properties":[
                         {
                          "name":"allowApi",
@@ -544,15 +544,11 @@
                          "value":true
                         }, 
                         {
-                         "name":"jitsiRoom",
+                         "name":"openWebsite",
                          "type":"string",
-                         "value":"ChillZone"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
+                         "value":"https://jitsi.studiofritzgnad.de/chillzone"
+                        },
+                       
                         {
                          "name":"policy",
                          "type":"string",
