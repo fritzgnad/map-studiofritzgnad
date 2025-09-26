@@ -563,7 +563,7 @@
                 {
                  "height":128,
                  "id":13,
-                 "name":"Hangout",
+                 "name":"Jitsi Web",
                  "properties":[
                         {
                          "name":"allowApi",
@@ -576,19 +576,20 @@
                          "value":true
                         }, 
                         {
-                         "name":"jitsiRoom",
+                         "name":"openTab",
                          "type":"string",
-                         "value":"ChillZone"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
+                         "value":"https://jitsi.studiofritzgnad.de:8443/chillzone"
+                        },
+                       
                         {
                          "name":"policy",
                          "type":"string",
-                         "value":"camera; microphone; fullscreen; display-capture; autoplay; clipboard-write; picture-in-picture"
+                         "value":"camera; microphone; display-capture; fullscreen; autoplay;"
+                        }, 
+                        {
+                         "name":"allow",
+                         "type":"string",
+                         "value":"camera; microphone; fullscreen; display-capture; autoplay"
                         }, 
                         {
                          "name":"zoom_margin",
