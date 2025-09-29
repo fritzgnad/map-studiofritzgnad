@@ -591,22 +591,33 @@
                 {
                  "height":224,
                  "id":16,
-                 "name":"jitsiMeetingRoom",
+                 "name":"Jitsi Meeting Room",
                  "properties":[
+                       {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":"https://jitsi.studiofritzgnad.de:8443/space-meeting"
+                        },
                         {
                          "name":"focusable",
                          "type":"bool",
                          "value":true
                         }, 
+                       {
+                         "name":"allowApi",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                       
                         {
-                         "name":"jitsiRoom",
+                         "name":"policy",
                          "type":"string",
-                         "value":"MeetingRoom"
+                         "value":"camera; microphone; display-capture; fullscreen; autoplay;"
                         }, 
                         {
-                         "name":"jitsiTrigger",
+                         "name":"allow",
                          "type":"string",
-                         "value":"onaction"
+                         "value":"camera; microphone; fullscreen; display-capture; autoplay"
                         }, 
                         {
                          "name":"zoom_margin",
