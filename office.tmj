@@ -58,7 +58,7 @@
             3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":21,
          "id":7,
-         "name":"collisions",
+         "name":"collisions_old",
          "opacity":1,
          "type":"tilelayer",
          "visible":false,
@@ -411,9 +411,9 @@
                 }, 
                 {
                  "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1150, 1151, 0, 0, 0, 0, 1150, 1151, 0, 0, 0, 0, 0, 0, 142, 143, 144, 0, 0, 0,
-                    0, 0, 1375, 1376, 1376, 1377, 0, 0, 0, 0, 0, 1175, 1176, 0, 0, 0, 0, 1175, 1176, 0, 0, 0, 0, 0, 0, 152, 153, 154, 0, 0, 0,
-                    0, 1434, 1388, 1389, 1389, 1390, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 162, 163, 164, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1150, 1151, 0, 0, 0, 0, 1150, 1151, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 1375, 1376, 1376, 1377, 0, 0, 0, 0, 0, 1175, 1176, 0, 0, 0, 0, 1175, 1176, 0, 0, 0, 0, 0, 0, 1375, 1375, 1377, 0, 0, 0,
+                    0, 1434, 1388, 1389, 1389, 1390, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1388, 1389, 1390, 0, 0, 0,
                     0, 1447, 0, 0, 0, 0, 1411, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 1612, 1613, 0, 1424, 0, 0, 0, 0, 1562, 1563, 0, 0, 0, 0, 1563, 1564, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1494, 1572, 1573, 1495, 0, 0, 1494, 1573, 1574, 1495, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -534,6 +534,11 @@
                  "name":"Jitsi Web",
                  "properties":[
                         {
+                         "name":"allow",
+                         "type":"string",
+                         "value":"camera; microphone; fullscreen; display-capture; autoplay"
+                        }, 
+                        {
                          "name":"allowApi",
                          "type":"bool",
                          "value":true
@@ -546,18 +551,12 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":"https://jitsi.studiofritzgnad.de:8443/chillzone"
-                        },
-                       
+                         "value":"https:\/\/jitsi.studiofritzgnad.de:8443\/chillzone"
+                        }, 
                         {
                          "name":"policy",
                          "type":"string",
                          "value":"camera; microphone; display-capture; fullscreen; autoplay;"
-                        }, 
-                        {
-                         "name":"allow",
-                         "type":"string",
-                         "value":"camera; microphone; fullscreen; display-capture; autoplay"
                         }, 
                         {
                          "name":"zoom_margin",
@@ -593,31 +592,30 @@
                  "id":16,
                  "name":"Jitsi Meeting Room",
                  "properties":[
-                       {
-                         "name":"openTab",
+                        {
+                         "name":"allow",
                          "type":"string",
-                         "value":"https://jitsi.studiofritzgnad.de:8443/space-meeting"
-                        },
+                         "value":"camera; microphone; fullscreen; display-capture; autoplay"
+                        }, 
+                        {
+                         "name":"allowApi",
+                         "type":"bool",
+                         "value":true
+                        }, 
                         {
                          "name":"focusable",
                          "type":"bool",
                          "value":true
                         }, 
-                       {
-                         "name":"allowApi",
-                         "type":"bool",
-                         "value":true
+                        {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":"https:\/\/jitsi.studiofritzgnad.de:8443\/space-meeting"
                         }, 
-                       
                         {
                          "name":"policy",
                          "type":"string",
                          "value":"camera; microphone; display-capture; fullscreen; autoplay;"
-                        }, 
-                        {
-                         "name":"allow",
-                         "type":"string",
-                         "value":"camera; microphone; fullscreen; display-capture; autoplay"
                         }, 
                         {
                          "name":"zoom_margin",
